@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cb236437-acc0-4438-8077-c7f4bec5d899" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable path="composer" />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpTemplates">
+    <option name="NEW_PHP_FILE_LAST_EXTENSION" value="phtml" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/zfcampus/zf-development-mode" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/container-interop/container-interop" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-component-installer" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-session" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-mvc-plugin-fileprg" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-developer-tools" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-zendframework-bridge" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-validator" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-stdlib" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-servicemanager" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-inputfilter" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-hydrator" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-form" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-filter" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/ocramius/package-versions" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-config" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-escaper" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-modulemanager" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-router" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-uri" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-json" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-eventmanager" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-loader" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-view" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-http" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/reflection" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-authentication" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-cache" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-paginator" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-mvc" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-orm-module" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-module" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-laminas-hydrator" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-i18n" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-code" />
+      <path value="$PROJECT_DIR$/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/migrations" />
+      <path value="$PROJECT_DIR$/vendor/ocramius/proxy-manager" />
+      <path value="$PROJECT_DIR$/vendor/webimpress/safe-writer" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-db" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1YAQYAS5fklb0GzYzplnAI8WAJW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/module/DocumentManager/view/documentmanager/documentmanager" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\dashboard\nexum\module\DocumentManager\view\documentmanager\documentmanager" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\dashboard\nexum\module\DocumentManager\view\layout" />
+      <recent name="C:\xampp\htdocs\dashboard\nexum\module\DocumentManager\src\Model" />
+      <recent name="C:\xampp\htdocs\dashboard\nexum\module" />
+      <recent name="C:\xampp\htdocs\dashboard\nexum\data\DoctrineORMModule" />
+      <recent name="C:\xampp\htdocs\dashboard\nexum\data" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHP Script.DocumentManagerController.php">
+    <configuration name="phpunit.xml.dist" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
+    <configuration name="DocumentManagerController.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/module/DocumentManager/src/Controller/DocumentManagerController.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.DocumentManagerController.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cb236437-acc0-4438-8077-c7f4bec5d899" name="Default Changelist" comment="" />
+      <created>1582382963912</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582382963912</updated>
+      <workItem from="1582382967438" duration="1143000" />
+      <workItem from="1582452574014" duration="559000" />
+      <workItem from="1582470090901" duration="20762000" />
+      <workItem from="1582541669193" duration="8280000" />
+      <workItem from="1582620754773" duration="21351000" />
+      <workItem from="1582647664982" duration="263000" />
+      <workItem from="1582708641006" duration="20474000" />
+      <workItem from="1582791239412" duration="23001000" />
+      <workItem from="1582878980539" duration="602000" />
+      <workItem from="1582889704843" duration="28146000" />
+      <workItem from="1582925459618" duration="13854000" />
+      <workItem from="1582967663774" duration="39957000" />
+      <workItem from="1583024090011" duration="501000" />
+      <workItem from="1583052870766" duration="8104000" />
+      <workItem from="1583065841909" duration="3000" />
+      <workItem from="1583066282912" duration="1146000" />
+      <workItem from="1583067450783" duration="6400000" />
+      <workItem from="1583073955292" duration="1208000" />
+      <workItem from="1583075182911" duration="9000" />
+      <workItem from="1583075507232" duration="4000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="679" y="209" key="#DocumentManagerController.php" timestamp="1582625218329">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="679" y="209" key="#DocumentManagerController.php/0.0.1920.1040@0.0.1920.1040" timestamp="1582625218329" />
+    <state x="667" y="111" key="#PHP" timestamp="1582470651954">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="111" key="#PHP/0.0.1920.1040@0.0.1920.1040" timestamp="1582470651954" />
+    <state x="703" y="318" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582899685656">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="703" y="318" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1582899685656" />
+    <state x="1245" y="209" key="#com.intellij.ide.util.MemberChooser" timestamp="1583060081671">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1245" y="209" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583060081671" />
+    <state x="1170" y="279" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1582721562839">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1170" y="279" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582721562839" />
+    <state x="1149" y="268" width="598" height="298" key="ComposerAddDependencyOutputPopupDimensionServiceKey" timestamp="1582797654575">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1149" y="268" width="598" height="298" key="ComposerAddDependencyOutputPopupDimensionServiceKey/0.0.1920.1040@0.0.1920.1040" timestamp="1582797654575" />
+    <state x="1124" y="434" key="ComposerInitDialogKey" timestamp="1582477850963">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1124" y="434" key="ComposerInitDialogKey/0.0.1920.1040@0.0.1920.1040" timestamp="1582477850963" />
+    <state x="607" y="227" key="FileChooserDialogImpl" timestamp="1582978176867">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="607" y="227" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582978176867" />
+    <state x="1161" y="363" key="NewPhpClassDialog" timestamp="1582797373819">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1161" y="363" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582797373819" />
+    <state x="1317" y="444" key="NewPhpFileDialog" timestamp="1582899699890">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1317" y="444" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582899699890" />
+    <state x="1301" y="101" width="564" height="668" key="PHPComposerAddDependencyDialogDimensionKey" timestamp="1582810782075">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1301" y="101" width="564" height="668" key="PHPComposerAddDependencyDialogDimensionKey/0.0.1920.1040@0.0.1920.1040" timestamp="1582810782075" />
+    <state x="1179" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1583075507701">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1179" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583075507701" />
+    <state x="136" y="242" key="run.anything.popup" timestamp="1583065354817">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="136" y="242" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583065354817" />
+  </component>
+</project>

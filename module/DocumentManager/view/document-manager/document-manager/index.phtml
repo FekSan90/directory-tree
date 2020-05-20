@@ -1,0 +1,38 @@
+<div class="jumbotron ">
+    <h1 class="display-4">Document Manager</span></h1>
+</div>
+
+<div class="col-md-12">
+    <div class="card">
+        <div class="card-header">
+            <h2 class="card-title">Folder tree</h2>
+        </div>
+        <div class="card-body">
+            <?= $this->partial('folder-tree.phtml'); ?>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-12">
+    <div class="card">
+        <div class="card-header">
+            <h2 class="card-title">File list</h2>
+        </div>
+        <div class="card-body">
+            <?= $this->partial('file-list.phtml'); ?>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-12">
+    <div class="card">
+        <div class="card-header">
+            <h2 class="card-title">Upload document</h2>
+        </div>
+        <div class="card-body">
+            <div id="upload-form">
+                <?= $this->partial('upload-form.phtml'); ?>
+            </div>
+        </div>
+    </div>
+</div>

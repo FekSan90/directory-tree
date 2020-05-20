@@ -1,0 +1,106 @@
+<button type="button" class="btn btn-success btn-sm" onclick="create_node();"> Create</button>
+<button type="button" class="btn btn-warning btn-sm" onclick="rename_node();"> Rename</button>
+<button type="button" class="btn btn-danger btn-sm" onclick="delete_node();"> Delete</button>
+
+<div id="data"></div>
+<div id="select"></div>
+<div id="error"></div>
+    <script>
+        var signal = null;
+        $('#data').jstree({
+            'core': {
+                'multiple': false,
+                'check_callback': true,
+                'force_text': true,
+                'data': [
+                    {"id": "0", "parent": "#", "text": "Uploads"},
+                    <?php
+                    if(!is_null($this->dirs))
+                    foreach ($this->dirs as $dir) :?>
+                    {"id": "<?=$dir->getId()?>", "parent": "<?=$dir->getParentId()?>", "text": "<?=$dir->getdisplayName()?>"},
+                    <?php endforeach; ?>
+                ]
+            },
+            'plugins': ["unique"]
+        }).on('changed.jstree', function (e, data) {
+            document.getElementById("hidden_id").value = data.node.id;
+            $('#select').html('Selected: ' + data.instance.get_path(data.node, '/'))
+        }).on('rename_node.jstree', function (e, data) {
+            if (signal == "create") {
+                $.post("DocumentManager/createDir",
+                    {
+                        name: data.node.text,
+                        parentId: data.node.parent,
+                    },
+                    function (result) {
+                        if (result['status'] !== "SUCCESS") {
+                            return showError("Hiba történt!");
+                        }
+                        $('#data').jstree(true).set_id(data.node, result['id']);
+                    }
+                );
+            }
+            if (signal == "rename") {
+                $.post("DocumentManager/renameDir",
+                    {
+                        id: data.node.id,
+                        newname: data.node.text,
+                    },
+                    function (result) {
+                        if (result['status'] !== "SUCCESS") {
+                            return showError("Hiba történt!");
+                        }
+                    });
+            }
+        }).on('delete_node.jstree', function (e, data) {
+            $.post("DocumentManager/deleteDir",
+                {
+                    id: data.node.id,
+                },
+                function (result) {
+                    if (result['status'] !== "SUCCESS") {
+                        return showError("Hiba történt!");
+                    }
+                });
+        }).on('select_node.jstree', function (e, data) {
+            $.post("DocumentManager/listFiles",
+                {
+                    parentId: data.node.id,
+                },
+                function (result) {
+                    if (result) {
+                        document.getElementById("table").innerHTML = "";
+                        var table = document.getElementById("table");
+
+                        for (var key in result) {
+                            if (key != result.length - 1) {
+                                var brow = table.insertRow(0);
+                                var bcell1 = brow.insertCell(0);
+                                bcell1.innerHTML = "<a href=\"" + data.instance.get_path(data.node, '/') + '/' + result[key]['filename'] +
+                                    "\">" + result[key]['name'] + "</a>";
+
+                                var bcell2 = brow.insertCell(1);
+                                bcell2.innerHTML = result[key]['date'] ;
+
+                                var bcell2 = brow.insertCell(2);
+                                bcell2.innerHTML = result[key]['version'] ;
+                            }
+                        }
+
+                        var header = table.createTHead();
+                        header.setAttribute("class", "thead-dark");
+                        var hrow = header.insertRow(0);
+                        var hcell1 = hrow.insertCell(0);
+                        hcell1.innerHTML = "<strong>Fájlnév</strong>";
+                        var hcell2 = hrow.insertCell(1);
+                        hcell2.innerHTML = "<strong>Feltöltés dátuma</strong>";
+                        var hcell3 = hrow.insertCell(2);
+                        hcell3.innerHTML = "<strong>Verziószám</strong>";
+                    }
+
+                    if (result[key]['status'] !== "SUCCESS") {
+                        return showError("Hiba történt!");
+                    }
+                });
+        });
+    </script>

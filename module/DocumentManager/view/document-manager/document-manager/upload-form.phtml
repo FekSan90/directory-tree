@@ -1,0 +1,20 @@
+<?php
+
+$form->prepare();
+$fileElement = $form->get('document-file');
+$hiddenElement = $form->get('hidden');
+echo $this->form()->openTag($form);
+?>
+
+<div class="form-element">
+    <?= $this->formLabel($fileElement) ?>
+    <?= $this->formHidden($hiddenElement) ?>
+    <?= $this->formFile($fileElement) ?>
+    <?= $this->formElementErrors($fileElement) ?>
+</div>
+
+<button>Submit</button>
+
+<?= $this->form()->closeTag() ?>
+<?= isset($fileName) && !isset($iderror) ? "<p class=\"text-success\">" . $fileName . " uploaded" . "</p>" : "" ?>
+<?= isset($iderror) ? "<p class=\"text-danger\">" . $iderror. "</p>" : "" ?>
